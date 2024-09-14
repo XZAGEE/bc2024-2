@@ -1,0 +1,62 @@
+[
+    {
+       "dt":"20231001",
+       "txt":"Кількість діючих банків",
+       "txten":"Number of licensed banks",
+       "id_api":"BS3_NumberBanks",
+       "leveli":1,
+       "parent":"Main_Indicators",
+       "freq":"Q",
+       "fullname":"0 Банки",
+       "value":63,
+       "tzep":"T080"
+    },
+    {
+       "dt":"20231001",
+       "txt":"Кількість діючих банків зі 100% іноземним капіталом",
+       "txten":"Number of licensed banks with 100% foreign capital",
+       "id_api":"BS3_NumberBanks100FCap",
+       "leveli":3,
+       "parent":"BS3_NumberBanksFCap",
+       "freq":"Q",
+       "fullname":"0 Банки",
+       "value":19,
+       "tzep":"T080"
+    },
+    {
+       "dt":"20231001",
+       "txt":"Кількість діючих банків з іноземним капіталом",
+       "txten":"Number of licensed banks with foreign capital",
+       "id_api":"BS3_NumberBanksFCap",
+       "leveli":2,
+       "parent":"BS3_NumberBanks",
+       "freq":"Q",
+       "fullname":"0 Банки",
+       "value":27,
+       "tzep":"T080"
+    },
+    {
+       "dt":"20231001",
+       "txt":"Рентабельність капіталу, %",
+       "txten":"Return on equity, %",
+       "id_api":"BS3_ReturnEquity",
+       "leveli":1,
+       "parent":"Main_Indicators",
+       "freq":"Q",
+       "fullname":"0 Банки",
+       "value":56.85,
+       "tzep":"T090"
+    },
+    {
+       "dt":"20231001",
+       "txt":"Рентабельність активів, %",
+       "txten":"Return on assets, %",
+       "id_api":"BS3_ReturnAssets",
+       "leveli":1,
+       "parent":"Main_Indicators",
+       "freq":"Q",
+       "fullname":"0 Банки",
+       "value":5.86,
+       "tzep":"T090"
+    }
+ ]
